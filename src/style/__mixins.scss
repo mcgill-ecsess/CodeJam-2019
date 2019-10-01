@@ -14,7 +14,7 @@
 }
 
 @mixin bordered {
-  border: 1px solid $blue;
+  border: 1px solid $darkgray;
   box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@
 }
 
 @mixin button {
-  background-color: $red;
+  background-color: $gold;
   color: $white;
   font-weight: bold;
   border: none;
@@ -50,6 +50,6 @@
   padding: 20px;
   display: inline-block;
   &:hover {
-    background-color: $blue;
+    background-color: $darkgray;
   }
 }

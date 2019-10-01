@@ -15,7 +15,7 @@
     content: '';
     width: 2.4rem;
     height: 2.4rem;
-    background-color: $blue;
+    background-color: $darkgray;
     position: absolute;
     top: -0.6rem;
     left: -1.2rem;
@@ -149,7 +149,7 @@
     &:hover {
       transform: translate(-5px, -5px);
       transition: 0.15s ease-in-out all;
-      filter: drop-shadow(5px 5px 1px $blue);
+      filter: drop-shadow(5px 5px 1px $darkgray);
     }
   }
 }
