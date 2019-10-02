@@ -28,6 +28,15 @@
 .background__pr {
   position: absolute;
   z-index: 999;
-  opacity: 0.02;
-  width: 60rem;
+  opacity: 0.06;
+  width: 70%;
+  left:0;
+}
+
+.background__pr__right {
+  position: absolute;
+  z-index: 999;
+  opacity: 0.06;
+  width: 30%;
+  right:0;
 }
