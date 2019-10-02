@@ -17,6 +17,7 @@
 .hero__wrapper {
   display: flex;
   flex-direction: column;
+  position: absolute;
 
   @include media-query($sm-up) {
     flex-direction: row;
