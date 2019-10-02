@@ -28,6 +28,7 @@
   @include media-query($sm-up) {
     margin-right: 2rem;
   }
+  width: 40%;
 }
 
 .hero__text-wrapper {
@@ -39,8 +40,8 @@
 }
 
 .hero__title {
-  font-size: 3.6rem;
-  margin-top: 0;
+  font-size: 6rem;
+  margin-top: 1rem;
   margin-bottom: 0.4rem;
 
   @include media-query($sm-up) {
@@ -53,7 +54,7 @@
 }
 
 .hero__subtitle {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
 
   @include media-query($sm-up) {
     font-size: 2rem;
