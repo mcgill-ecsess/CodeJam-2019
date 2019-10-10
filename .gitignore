@@ -75,3 +75,10 @@ typings/
 .DS_Store
 
 dist/
+
+
+# remove yarn.lock
+yarn.lock
+
+# remove package-lock.json
+package-lock.json
