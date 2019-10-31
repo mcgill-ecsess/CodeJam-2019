@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align:center;
 
   @include page-width;
 
@@ -35,6 +36,18 @@
   display: flex;
   flex-direction: column;
   position: absolute;
+
+  @include media-query($sm-up) {
+    flex-direction: row;
+  }
+}
+
+.hero__wrapper_2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-self: center;
 
   @include media-query($sm-up) {
     flex-direction: row;
